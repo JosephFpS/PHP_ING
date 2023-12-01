@@ -1,0 +1,57 @@
+.boton-estilo{
+    background-color: #8a2be2;
+    border: #1f211f;
+    color: rgb(255, 255, 255);
+
+}
+
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgb(80, 118, 140)),
+    url(img/fbosque.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #2b2727;
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #131414;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: #171616;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #231f1f;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #1b1d1d;
+}
